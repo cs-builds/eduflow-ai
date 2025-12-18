@@ -28,7 +28,7 @@ import {
 } from 'lucide-react';
 
 // --- CONFIGURATION ---
-const apiKey = "AIzaSyAC5fhP8h3-yTk7JmJJaL9q2keQ7gZSMqQ"; // Correct variable name for environment key injection
+const apiKey = ""; // Correct variable name for environment key injection
 const ENDPOINTS = {
   TEXT: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`,
   IMAGE: `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`,
